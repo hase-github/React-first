@@ -67,7 +67,7 @@ const App = () => {
       <ColofulMessage color="pink" message="元気です！" />
       <ColofulMessage2 color="pink">元気です！！</ColofulMessage2>
       {
-        //ColofulMessageタグはコンポーネントとして定義した。
+        //定義したコンポーネントはタグのように呼び出す（ColofulMessage）。
         //コンポーネントにはpropsという変数みたいなものを渡せる（ここでは、color,messageがprops）
       }
       <button onClick={onClickButton}>ボタン</button>
